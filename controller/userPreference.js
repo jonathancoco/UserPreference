@@ -35,7 +35,7 @@ exports.getUserPreference = function ( req, res, next) {
            if (results[0].length == 1)
            {
               results[0][0].preferences = JSON.parse(results[0][0].preferences)
-              return res.status(200).send(results[0]);
+              return res.status(200).send(results[0][0]);
            }
            else {
              return res.status(200).send({})
