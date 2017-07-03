@@ -4,7 +4,7 @@
         "gcInterval" : 3600000
     },
     "log":{
-        "filePath" : "/code/UserPreferenceService/logs/userPreference.log",
+        "filePath" : "logs/userPreference.log",
         "level" : "debug"
     },
     "userPreferenceConfig": {
