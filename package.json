@@ -1,0 +1,27 @@
+{
+  "name": "userprefernce-svc",
+  "version": "1.0.0",
+  "description": "Service provides APIs to manage user preference for the CSI product.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "body-parser": "^1.15.0",
+    "config": "^1.20.1",
+    "express": "^4.13.4",
+    "express-winston": "^1.4.2",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.11.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0",
+    "node-rest-client": "^1.8.0",
+    "util": "^0.10.3",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.1.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "app" : {
+        "port" : 5009,
+        "gcInterval" : 3600000
+    },
+    "log":{
+        "filePath" : "/code/UserPreferenceService/logs/userPreference.log",
+        "level" : "debug"
+    },
+    "userPreferenceConfig": {
+        "host": "localhost",
+        "port": 3306,
+        "dbName": "csi",
+        "user":"csi",
+        "password":"csi",
+        "poolMin" : 0,
+        "poolMax" : 10,
+        "poolIncrement" : 3,
+        "poolTimeout" : 300
+    }
+}
