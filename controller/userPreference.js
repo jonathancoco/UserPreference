@@ -49,8 +49,6 @@ exports.setUserPreference = function ( req, res, next) {
 
     var query = mySqlQueryFactory.getQuery("setUserPreference");
 
-    req.body.preferences = JSON.stringify(req.body.preferences)
-
     mySqlUtil.execute(query, [req.body.user, req.body.app, req.body.preferences], (queryError, results) => {
 
        if(queryError)
